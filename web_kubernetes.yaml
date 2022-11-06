@@ -31,7 +31,6 @@ metadata:
 spec:
   selector: ai-web-service
   type: LoadBalancer
-  selector:
     app: ai-web
   ports:
     - protocol: TCP
