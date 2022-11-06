@@ -28,7 +28,7 @@ kind: Service
 metadata:
   name: ai-web-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: ai-web
   ports:
