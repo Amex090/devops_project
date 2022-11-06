@@ -5,6 +5,6 @@ services:
     ports:
       - "8501:8501"
   api:
-    build: ml_fastapi
+    build: model
     ports:
       - "8000:8000"
