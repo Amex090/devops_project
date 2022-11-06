@@ -15,11 +15,11 @@ spec:
         app: ai-web
     spec:
       containers:
-      - name: ai-web
+      - name: model
         image: amex12/application:model
         ports:
         - containerPort: 8000
-      - name: ai-web
+      - name: streamlit
         image: amex12/application:streamlit
         ports:
         - containerPort: 8501
