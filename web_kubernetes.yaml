@@ -29,7 +29,7 @@ kind: Service
 metadata:
   name: ai-web-service
 spec:
-  selector: ai-web
+  selector: ai-web-service
   type: LoadBalancer
   selector:
     app: ai-web
