@@ -1,4 +1,5 @@
 [![Tests](https://github.com/DancheG14/devops_project/main/.github/workflows/docker-image.yml/badge.svg)](https://github.com/DancheG14/devops_project/main/.github/workflows/docker-image.yml)
+
 #                                                           **devops_project**  
 
 ##                             Учебный проект по дисциплине "Распределённые и параллельные вычисления"  
