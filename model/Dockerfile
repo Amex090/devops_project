@@ -1,7 +1,7 @@
 FROM python:3.10
 EXPOSE 8000
 WORKDIR /app
-COPY -a ./model/requirements.txt ./requirements.txt
+COPY ./model/requirements.txt ./requirements.txt
 RUN pip3 install -r requirements.txt
 COPY ./model/main.py .
 
