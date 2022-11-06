@@ -20,7 +20,7 @@ spec:
         ports:
         - containerPort: 8000
       - name: streamlit
-        image: amex12/application:streamlit
+        image: amex12/application:stremlit
         ports:
         - containerPort: 8501
 ---
