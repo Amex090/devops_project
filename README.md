@@ -1,4 +1,4 @@
-[![Tests](https://github.com/DancheG14/devops_project/main/.github/workflows/docker-image.yml/badge.svg)](https://github.com/DancheG14/devops_project/main/.github/workflows/docker-image.yml)
+[![Tests](https://github.com/DancheG14/devops_project/main/actions/workflows/docker-image.yml/badge.svg)](https://github.com/DancheG14/devops_project/main/actions/workflows/docker-image.yml)
 
 #                                                           **devops_project**  
 
