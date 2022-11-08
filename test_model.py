@@ -1,4 +1,4 @@
-pip install fastapi
+python -m pip install fastapi
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 from main import app
