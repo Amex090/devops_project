@@ -11,16 +11,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the Docker image API
-      run: docker build . --file ./model/Dockerfile --tag my-image-name:$(date +%s)
-      
-    - uses: actions/checkout@v3
-    - name: Build the Docker image web(Streamlit)  
-      run: docker build . --file ./streamlit/Dockerfile --tag my-image-name:$(date +%s)
-     
+    
     - uses: actions/checkout@v2
     - name: Set up Python 3.10
       uses: actions/setup-python@v2
@@ -40,3 +33,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+    - uses: actions/checkout@v3
+    - name: Build the Docker image API
+      run: docker build . --file ./model/Dockerfile --tag my-image-name:$(date +%s)
+      
+    - uses: actions/checkout@v3
+    - name: Build the Docker image web(Streamlit)  
+      run: docker build . --file ./streamlit/Dockerfile --tag my-image-name:$(date +%s)
