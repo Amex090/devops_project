@@ -1,4 +1,5 @@
-from FastAPI.testclient import TestClient
+pip3 install fastapi
+from fastapi.testclient import TestClient
 from main import app
 
 client = TestClient(app)
