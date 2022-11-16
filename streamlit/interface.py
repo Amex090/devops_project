@@ -1,4 +1,3 @@
-import io
 import streamlit as st
 import requests
 
@@ -9,6 +8,6 @@ result = st.button('Определить тональность')
 
 if result:
     response = requests.post('http://127.0.0.1:8000/predict', 
-                             json={'text':text})
+                             json={'text': text})
     st.write('**Результаты распознавания:**')
     st.write(response.json()['label'])
