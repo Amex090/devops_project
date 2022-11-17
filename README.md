@@ -1,4 +1,4 @@
-[![Tests](https://github.com/DancheG14/devops_project/actions/workflows/pytest and docker-image.yml/badge.svg)](https://github.com/DancheG14/devops_project/actions/workflows/pytest and docker-image.yml)
+[![Tests](https://github.com/DancheG14/devops_project/actions/workflows/pytest+docker-image.yml/badge.svg)](https://github.com/DancheG14/devops_project/actions/workflows/pytest+docker-image.yml)
 
 #                                                           **devops_project**  
 
